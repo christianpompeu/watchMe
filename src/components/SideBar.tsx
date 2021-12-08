@@ -11,7 +11,7 @@ interface Genre {
 
 interface SideBarProps {
   genres: Genre[];
-  function: any;
+  function: (id:number)=>void;
   selectedGenreId: number;
 }
 
